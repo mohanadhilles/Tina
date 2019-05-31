@@ -14,11 +14,11 @@
                     <table class="table table-bordered table-striped">
                         <tr>
                             <th>@lang('quickadmin.manage-live.fields.url')</th>
-                            <td field-key='url'>{{ $manage_life->url }}</td>
+                            <td field-key='url'>{{ $manage_live->url }}</td>
                         </tr>
                         <tr>
                             <th>@lang('quickadmin.manage-live.fields.validate')</th>
-                            <td field-key='validate'>{{ $manage_life->validate }}</td>
+                            <td field-key='validate'>{{ $manage_live->validate }}</td>
                         </tr>
                     </table>
                 </div>
