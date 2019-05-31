@@ -3,7 +3,7 @@
 @section('content')
     <h3 class="page-title">@lang('quickadmin.manage-live.title')</h3>
     
-    {!! Form::model($manage_life, ['method' => 'PUT', 'route' => ['admin.manage_lives.update', $manage_life->id]]) !!}
+    {!! Form::model($manage_live, ['method' => 'PUT', 'route' => ['admin.manage_lives.update', $manage_live->id]]) !!}
 
     <div class="panel panel-default">
         <div class="panel-heading">
